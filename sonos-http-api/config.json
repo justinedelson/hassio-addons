@@ -1,0 +1,16 @@
+{
+  "name": "Sonos HTTP API",
+  "version": "0.0.19",
+  "slug": "sonos-http-api",
+  "description": "Sonos HTTP API",
+  "startup": "before",
+  "boot": "auto",
+  "map": ["ssl"],
+  "host_network": true,
+  "options": {},
+  "schema": false,
+  "ports": {
+    "5005/tcp": 5005,
+    "5006/tcp": 5006
+  }
+}
